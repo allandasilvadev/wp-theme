@@ -1,0 +1,109 @@
+/*
+ * Theme Name: treinaweb
+ * Theme URI: https://treinaweb.com.br/
+ * Description: Tema desenvolvido durante o curso de desenvolvimento de temas da treinaweb.
+ * Author: Treinaweb
+ * Author URI: https://treinaweb.com.br/
+ * Version: 2.0
+ * Tested up to: 5.4
+ * Requires PHP: 7.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: treinaweb
+ * Tags: blog, two-columns
+ */
+
+body { margin-top: 1em; margin-bottom: 1em; }
+.posts { margin-bottom: 1em; }
+
+.nav .current_page_item a {
+	color: #ffffff !important;	
+	background-color: #111111;
+}
+
+.nav .current_page_item a:hover {
+	background-color: #111111 !important;
+}
+
+.lista-comentarios {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-comentarios li {
+    display: block;
+    border: solid 1px #dedede;
+    margin-top: 12px;
+    margin-right: 0px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    padding: 8px;
+}
+
+.lista-comentarios .commentmetadata {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.comment-form-author input[type="text"] {
+    width: 80%;
+}
+
+.comment-form-email input[type="text"] {
+    width: 80%;
+}
+
+.comment-form-phone input[type="text"] {
+    width: 80%;
+}
+
+.comment-form-comment textarea {
+    width: 80%;
+    resize: none;
+}
+
+ul.nav-list > ul {
+    display: block;
+    padding: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+ul.nav-list > ul li {
+    list-style-type: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.galeria {
+    display: block;
+    padding: 2px;
+    background-color: #ffffff;
+    border: solid 1px #dedede;
+    height: auto;
+    width: auto;
+    max-height: 120px;
+    max-width: 120px;
+}
+
+#pesquisar {
+    margin-bottom: 8px;
+}
+
+#menu-menu-principal li {
+    margin-top: 4px;
+}
+
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright {}
+.alignleft {}
+.aligncenter {}
+.screen-reader-text {}

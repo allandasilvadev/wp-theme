@@ -1,0 +1,1 @@
+autosize( document.querySelectorAll( '#comment' ) );
